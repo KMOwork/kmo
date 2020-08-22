@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.UPbegin{
+    width: auto;
+    max-width: 900px;
+    margin: 14% auto 3%;
+}
+.UPbegin h2{
+    margin-bottom: 15%;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 1.5s forwards;
+    letter-spacing: .3rem
+}
+.UPbanner h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #3fa1ed;
+    text-align: center;
+    letter-spacing: .3rem;
+    margin: 3% 0;
+}
+.UPbanner p{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: .2rem;
+    margin: 3% 0;
+}
+.UPcontent{
+    width: auto;
+    max-width: 900px;;
+    margin: 0 auto;
+}
+.UPcontent p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: .2rem;
+    margin: 3% 0;
+}
+.UPoy{
+    margin: 3% 0;
+}
+.UPdisplay div{
+    margin: 3% 0;
+}
+.lightbox .lb-image{
+    width: 1000px !important;
+    height: auto !important;
+}

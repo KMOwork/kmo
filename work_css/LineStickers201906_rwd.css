@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* ⼩型設備（⼩型平板電腦和⼤型⼿機，767px及以下） */
+@media only screen and (max-width:767px) {
+    .LSbegin h2{
+        margin: 15% 5%;
+    }
+    .LSbanner p{
+        width: 90%;
+        margin: 3% auto 0;
+    }
+    .LSBp p{
+        padding: 0 4%;
+        font-size: 1rem;
+    }
+    .LSpicture p{
+        margin: 3% 4%;
+        text-align: center;
+    }
+    .LSUb p{
+        margin: 0 11% 0 0;
+    }
+    .phoneX{
+        display: none;
+    }
+}
+/* 中型設備（⼤型平板電腦，768px及以上） */
+@media only screen and (min-width:768px) {
+    .LSpicture p{
+        margin: 3% 4%;
+    }
+    .LSUb p{
+        margin: 0 15% 0 0;
+    }
+    .phoneX{
+        display: none;
+    }
+}
+/* ⼤型設備（筆記型電腦/桌機，992px及以上） */
+@media only screen and (min-width:992px) {
+    .LSpicture p{
+        margin: 3% 0;
+    }
+    .LSUb p{
+        margin: 0;
+    }
+    .phoneX{
+        display: block;
+    }
+}

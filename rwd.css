@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* ⼩型設備（⼩型平板電腦和⼤型⼿機，767px及以下） */
+@media only screen and (max-width:767px) {
+    /* INDEX */
+    .INheader{
+        display: flex;
+        flex-direction: column;
+    }
+    .ham{
+        left: 85%;
+        /* right: 3%; */
+    }
+    .menu{
+        display: none;
+    }
+    .PHONEmenu{
+        display: block;
+        position: fixed;
+        width: 50%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 0%;
+        background: rgba(51, 51, 51, 0.8);
+        /* 用 translate 把選單藏到畫面右邊去 */
+        transform: translateX(102%);
+        transition: transform .5s;
+        z-index: 9998;
+    }
+    #nav-toggle:checked ~ .PHONEmenu{
+        transform: none;
+    }
+    .menu-list{
+        font-size: 1.5rem;
+    }
+    header h1{
+        width: 10%;
+        left: 7%;
+    }
+    .INcontent{
+        margin: 1% auto 5%;
+    }
+    .banner{
+        width: 100%;
+        margin: 15% auto 0;
+    }
+    .INCp{
+        display: none;
+    }
+    .PhoneH5{
+        display: block;
+        text-align: center;
+        margin: auto;
+        opacity: 0;
+        animation: mytext 2.5s forwards;
+    }
+    .PhoneH5 h5{
+        font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+        font-weight: 300;
+        font-size: 85%;
+        line-height: 150%;
+        opacity: 0;
+        animation: mytext 1.5s forwards;   
+        letter-spacing: .1rem
+    }
+    .icon{
+        display: none;
+    }
+    .down{
+        left: 46.5%;
+    }
+    /* main */
+    section h2{
+        margin: 25% 7% 6%;
+        width: 5%;
+        padding-top: 9px;
+    }
+    /* WORK */
+    .Wuls{
+        margin: 16% 0;
+    }
+    #WORK ul{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    #WORK li{
+        width: 200px;
+        margin: 6% auto;
+    }
+    #WORK a{
+        height: 200px;
+    }
+    .LS201906 p{
+        left: -25px;
+    }
+    /* ABOUT */
+    .about1{
+        width: 45%;
+        margin: 24% auto 18%;
+    }
+    .about1W{
+        margin: 3% 0 20%;
+    }
+    .A23bg{
+        display: none;
+    }
+    .about2{
+        width: 100%;
+        margin: 6% auto;
+    }
+    .PhoneMargin{
+        height: 500px;
+        margin: 0 4%;
+    }
+    .Awrite1{
+        font-size: 39pt;
+        left: 6%;
+    }
+    .Aphoto2{
+        left: 2.5%;
+        top: 11%;
+    }
+    .Awrite2{
+        left: 30%;
+        top: 49%;
+        font-size: 60pt;
+        margin-right: 4%;
+    }
+    .Awrite3{
+        left: 29.5%;
+        top: 73%;
+        margin-right: 8%;
+        font-size: .8rem;
+        line-height: 1.8rem;
+    }
+    .about3{
+        width: 93%;
+        height: 240px;
+        margin: 6% 2% 3% 0;
+    }
+    .Awrite4{
+        font-size: 25pt;
+    }/* 要浮又要置中，個別設margin看看 */
+    .Awrite4 p{
+        margin-bottom: 0;
+    }
+    .Awrite5{
+        margin: .5% 0 7% .5%;
+    }
+    .Awrite6{
+        font-size: .8rem;
+        line-height: 1.8rem;
+        margin: 0 0 0 .5%;
+    }
+    .Awrite6 p{
+        margin:0 10% 0 0;
+    }
+    .Awrite7{
+        font-size: .8rem;
+        line-height: 1.8rem;
+    }
+    .Awrite7 p{
+        margin:0 17% 0 0;
+    }
+    .Cicon{
+        margin: 33% auto 3%;
+        justify-content: center;
+        position: relative;
+    }
+    .Cicon li{
+        width: 22%;
+        margin: 0;
+    }
+    .Cphone div{
+        top: 148%;
+        left: 22%;
+        width: auto;
+    }
+    .Cphone p{
+        text-align: left;
+    }
+    .CMbg{
+        display: none;
+    }
+    #Cmail{
+        float: none;
+        position: relative;
+        width: 78%;
+        height: 940px;
+        margin: 20% auto 0;
+    }
+    #Cmail_p{
+        margin: 28% 0 8% 0;
+    }
+    form{
+        width: 100%;
+    }
+}
+/* 中型設備（⼤型平板電腦，768px及以上） */
+@media only screen and (min-width:768px) {
+    .menu{
+        width: 43%;
+    }
+    header h1{
+        width: 6%;
+        left: 47%;
+    }
+    .icon{
+        width: 30%;
+        right: -47px;
+    }
+    .icon-li{
+        width: 13%;
+        margin-left: 8%;
+    }
+    .INcontent{
+        margin: 2% auto 0;
+    }
+    .banner{
+        width: 85%;
+        margin: 15% auto 0;
+    }
+    .PhoneH5{
+        display: none;
+    }
+    .down{
+        width: 7%;
+        left: 47%;
+    }
+    /* section h2 */
+    section h2{
+        margin: 15% 10% 0;
+    }
+    /* WORK */
+    .Wuls{
+        margin: 20% 0 3%;
+    }
+    #WORK ul{
+        justify-content: space-evenly;
+    }
+    #WORK li{
+        width: 200px;
+    }
+    #WORK a{
+        height: 200px;
+    }
+    .LS201906 p{
+        left: -24px;
+    }
+    /* ABOUT */
+    .about1{
+        width: 27%;
+        margin: 23% auto 5%;
+    }
+    .about1W{
+        margin: 3% 0 35%;
+    }
+    .Awrite3{
+        left: 57%;
+        margin-right: 9%;
+    }
+    .about3{
+        margin: 6% 8% 0 3%;
+    }
+    /* CONTACT */
+    .Cicon{
+        margin: 12% auto 3%;
+    }
+    .Cphone div{
+        width: auto;
+    }
+    #Cmail{
+        float: none;
+        margin: 0 auto;
+        height: 950px;
+        width: 50%;
+    }
+    #Cmail_p{
+        margin: 20% 0 0;
+    }
+    form{
+        width: 100%;
+    }
+}
+/* ⼤型設備（筆記型電腦/桌機，992px及以上） */
+@media only screen and (min-width:992px) {
+    .menu{
+        width: 20%;
+    }
+    header h1{
+        width: 3.5%;
+        left: 48%;
+    }
+    .icon{
+        width: 11%;
+        right: 50px;
+    }
+    .icon-li{
+        width: 2.3vw;
+        margin-left: 1vw;
+    }
+    .INcontent{
+        margin: 6% auto 5%;
+    }
+    .banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .PhoneH5{
+        display: none;
+    }
+    .down{
+        width: 30px;
+        left: 49%;
+    }
+    /* section h2 */
+    section h2{
+        margin: 6% 10% 0;
+    }
+    /* WORK */
+    .Wuls{
+        margin: 15% 0 3%;
+    }
+    #WORK ul{
+        justify-content: space-between;
+    }
+    #WORK li{
+        width: 250px;
+    }
+    #WORK a{
+        height: 250px;
+    }
+    .LS201906 p{
+        left: -40px;
+    }
+    /* ABOUT */
+    .about1{
+        width: 16%;
+        margin: 15% auto 0;
+    }
+    .about1W{
+        margin: 12.5% 0 16%;
+    }
+    .Awrite3{
+        left: 65.5%;
+        margin-right: 0;
+    }
+    .about3{
+        margin: 6% 2% 0 3%;
+    }
+    /* CONTACT */
+    .Cicon{
+        margin: 8% auto 3%;
+    }
+    .Cphone div{
+        width: 100%;
+    }
+    #Cmail{
+        float: none;
+        margin: 0 auto;
+        height: 950px;
+        width: 40%;
+    }
+    #Cmail_p{
+        margin: 12% 0 0;
+    }
+    form{
+        width: 100%;
+    }
+}

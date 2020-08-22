@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.LSbegin0{
+   display: flex;
+}
+.LSbegin{
+    width: auto;
+    max-width: 900px;
+    /* width: 627px; */
+    margin: 14% auto 3%;
+}
+.LSbegin h2{
+    margin: 0 0 15% 0;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 1.5s forwards;
+    letter-spacing: .3rem
+}
+.LSBpicture{
+    width: 90%;
+    margin: 0 auto 0;
+}
+.LSbanner{
+    width: auto;
+    max-width: 900px;
+}
+.LSbanner p{
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    font-weight: 300;
+    margin-top: 3%;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 2.5s forwards;
+}
+.LSbanner p a{
+    color: #b3b3b3;
+    text-decoration: none;
+    word-break: break-all;
+}
+.LSBp{
+    position: relative;
+    width: 100%;
+    margin: 8% 0 0;
+}
+.LSBp p{
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+}
+.LSpicture{
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.LSpicture p{
+    margin: 3% 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: .2rem;
+}
+.LSuse{
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.LSUp{
+    display: flex;
+    justify-content: space-between;
+}
+.LSUp div{
+    width: 49%;
+}
+.LSUb{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 3% 0;
+}
+.LSUb div{
+    width: 49%;
+}
+.LSUBp{
+    height: 100%;
+}
+.LSUb p{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: .2rem;
+}
