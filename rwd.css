@@ -270,6 +270,18 @@
     .Cphone div{
         width: auto;
     }
+    .CMbg1{
+        height: 13%;
+        bottom: 74%;
+        left: -1%;
+        background-position: left 9% bottom 69%;
+    }
+    .CMbg2{
+        width: 12%;
+        height: 26%;
+        right: 45%;
+        background-position: right 13% bottom 13%;
+    }
     #Cmail{
         float: none;
         margin: 0 auto;
@@ -304,8 +316,8 @@
         margin: 6% auto 5%;
     }
     .banner{
-        width: 80%;
-        margin: 0 auto;
+        width: 65%;
+        margin: 5% auto 0;
     }
     .PhoneH5{
         display: none;
@@ -355,6 +367,18 @@
     }
     .Cphone div{
         width: 100%;
+    }
+    .CMbg1{
+        height: 23%;
+        bottom: 67%;
+        left: 0%;
+        background-position: left 12% bottom 47%;
+    }
+    .CMbg2{
+        width: 46%;
+        height: 44%;
+        right: 0%;
+        background-position: right 13% bottom 18.5%;
     }
     #Cmail{
         float: none;

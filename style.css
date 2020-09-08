@@ -178,8 +178,8 @@ nav{
 }
 .banner{
     position: relative;
-    width: 80%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 5% auto 0;
 }
 .INcontent p{
     width: 437px;
@@ -247,6 +247,7 @@ section h2{
     display: block;
     height: 250px;
 }
+/* LS201906 */
 .LS201906 p{
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -273,7 +274,8 @@ section h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.U202006 p{
+/* UP202006 */
+.UP202006 p{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -282,21 +284,48 @@ section h2{
     bottom: 25px;
     right: -58px;
 }
-.U202006{
+.UP202006{
     position: relative;
     background: url(images/work_Understanding202006_1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.U202006 a:hover ~ p{
-    animation: U202006move .5s forwards;
+.UP202006 a:hover ~ p{
+    animation: UP202006move .5s forwards;
 }
-@keyframes U202006move{
+@keyframes UP202006move{
     form{ transform: translate(0) rotate(0deg); }
     to{ transform: translate(20px, 30px) rotate(95deg); }
 }
-.U202006:hover{
+.UP202006:hover{
     background: url(images/work_Understanding202006_0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* KL202007 */
+.KL202007 p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    bottom: -37px;
+    right: -25px;
+}
+.KL202007{
+    position: relative;
+    background: url(images/work_KMoLogo202007_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KL202007 a:hover ~ p{
+    animation: KL202007move .5s forwards;
+}
+@keyframes KL202007move{
+    from{ transform: translate(0) rotate(0deg); }
+    to{ transform: translate(40px, -30px) rotate(20deg); }
+}
+.KL202007:hover{
+    background: url(images/work_KMoLogo202007_0.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -338,7 +367,7 @@ section h2{
     background-image: url(images/Abg_1.jpg);
     background-position: right 14% bottom 40%;
     background-repeat: no-repeat;
-    background-size: 21%;
+    background-size: 17%;
     background-attachment: fixed;
 }
 .A23bg2{
@@ -350,7 +379,7 @@ section h2{
     background-image: url(images/Abg_2.jpg);
     background-position: left 11% bottom 47%;
     background-repeat: no-repeat;
-    background-size: 16%;
+    background-size: 14%;
     background-attachment: fixed;
 }
 .A23bg3{
@@ -362,7 +391,7 @@ section h2{
     background-image: url(images/Abg_3.jpg);
     background-position: right 49% bottom 0%;
     background-repeat: no-repeat;
-    background-size: 19%;
+    background-size: 17%;
     background-attachment: fixed;
 }
 .A23{
@@ -503,26 +532,28 @@ section h2{
 }
 .CMbg1{
     position: absolute;
-    width: 100%;
-    height: 30%;
-    bottom: 45%;
+    width: 23%;
+    height: 23%;
+    bottom: 43%;
     left: 0%;
+    /* background-color: #66ccff; */
     background-image: url(images/Cbg_1.jpg);
-    background-position: left 12% bottom 24%;
+    background-position: left 12% bottom 47%;
     background-repeat: no-repeat;
-    background-size: 9%;
+    background-size: 11%;
     background-attachment: fixed;
 }
 .CMbg2{
     position: absolute;
-    width: 100%;
-    height: 30%;
-    bottom: 45%;
+    width: 21%;
+    height: 44%;
+    bottom: -4%;
     right: 0%;
+    /* background-color: #66ccff; */
     background-image: url(images/Cbg_2.jpg);
-    background-position: right 12% bottom 24%;
+    background-position: right 13% bottom 18.5%;
     background-repeat: no-repeat;
-    background-size: 8%;
+    background-size: 14%;
     background-attachment: fixed;
 }
 #Cmail{

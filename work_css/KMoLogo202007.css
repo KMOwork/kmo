@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.KLbegin{
+    width: auto;
+    max-width: 900px;
+    margin: 14% auto 0;
+}
+.KLbegin h2{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 1.5s forwards;
+    letter-spacing: .3rem
+}
+.KLgif{
+    width: 62%;
+    margin: 0 auto;
+}
+.KLcontent{
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto 3%;
+}
+.KLcontent p{
+    margin: 10% auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    letter-spacing: .2rem;
+}
