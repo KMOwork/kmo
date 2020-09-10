@@ -247,30 +247,58 @@ section h2{
     display: block;
     height: 250px;
 }
-/* LS201906 */
-.LS201906 p{
+/* TL202008 */
+.TL202008 p{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    top: -20px;
-    left: -40px;
+    transform: rotate(-90deg);
+    top: 39px;
+    left: -58px;
 }
-.LS201906{
+.TL202008{
     position: relative;
-    background: url(images/work_LineStickers201906_1.jpg);
+    background: url(images/work_TittotLayout202008_1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.LS201906 a:hover ~ p{
-    animation: LS201906move .5s forwards;
+.TL202008 a:hover ~ p{
+    animation: TL202008move .5s forwards;
 }
-@keyframes LS201906move{
-    form{ transform: translate(0) rotate(0deg); }
-    to{ transform: translate(-30px, -40px) rotate(-10deg); }
+@keyframes TL202008move{
+    from{ transform: translate(0) rotate(-90deg); }
+    to{ transform: translate(-28px, -38px) rotate(-73deg);}
 }
-.LS201906:hover{
-    background: url(images/work_LineStickers201906_0.jpg);
+.TL202008:hover{
+    background: url(images/work_TittotLayout202008_0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* KL202007 */
+.KL202007 p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    top: -21px;
+    left: -24px;
+}
+.KL202007{
+    position: relative;
+    background: url(images/work_KMoLogo202007_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KL202007 a:hover ~ p{
+    animation: KL202007move .5s forwards;
+}
+@keyframes KL202007move{
+    from{ transform: translate(0) rotate(0deg); }
+    to{ transform: translate(-25px, -10px) rotate(-15deg); }
+}
+.KL202007:hover{
+    background: url(images/work_KMoLogo202007_0.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -302,30 +330,30 @@ section h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* KL202007 */
-.KL202007 p{
+/* LS201906 */
+.LS201906 p{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    bottom: -37px;
-    right: -25px;
+    bottom: -41px;
+    right: -13px;
 }
-.KL202007{
+.LS201906{
     position: relative;
-    background: url(images/work_KMoLogo202007_1.png);
+    background: url(images/work_LineStickers201906_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.KL202007 a:hover ~ p{
-    animation: KL202007move .5s forwards;
+.LS201906 a:hover ~ p{
+    animation: LS201906move .5s forwards;
 }
-@keyframes KL202007move{
-    from{ transform: translate(0) rotate(0deg); }
-    to{ transform: translate(40px, -30px) rotate(20deg); }
+@keyframes LS201906move{
+    form{ transform: translate(0) rotate(0deg); }
+    to{ transform: translate(30px, 25px) rotate(-10deg); }
 }
-.KL202007:hover{
-    background: url(images/work_KMoLogo202007_0.png);
+.LS201906:hover{
+    background: url(images/work_LineStickers201906_0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

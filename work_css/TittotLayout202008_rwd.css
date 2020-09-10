@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* ⼩型設備（⼩型平板電腦和⼤型⼿機，767px及以下） */
+@media only screen and (max-width:767px) {
+    .TLbegin h2{
+        margin: 29% 5% 15%;
+    }
+    .TLbegin p{
+        margin: 3% 4% 0;
+    }
+}
+/* 中型設備（⼤型平板電腦，768px及以上） */
+@media only screen and (min-width:768px) {
+    .TLbegin p{
+        margin: 3% 4% 0;
+    }
+}
+/* ⼤型設備（筆記型電腦/桌機，992px及以上） */
+@media only screen and (min-width:992px) {
+    .TLbegin p{
+        margin: 3% 0 0 0;
+    }
+}

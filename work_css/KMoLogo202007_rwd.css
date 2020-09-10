@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* ⼩型設備（⼩型平板電腦和⼤型⼿機，767px及以下） */
+@media only screen and (max-width:767px) {
+    .KLbegin h2{
+        margin: 29% 5% 15%;
+    }
+    .KLcontent p{
+        margin: 10% 4%;
+    }
+}

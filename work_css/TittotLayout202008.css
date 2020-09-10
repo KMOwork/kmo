@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.main{
+    min-height: 100vh;
+    overflow: auto;/* 超出的部分預設會自動使用卷軸 */
+    padding-bottom: 6.2vh;
+}
+.TLbegin{
+    width: auto;
+    max-width: 900px;
+    margin: 14% auto 3%;
+}
+.TLbegin h2{
+    margin: 0 0 15% 0;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 1.5s forwards;
+    letter-spacing: .3rem
+}
+.TLbegin p{
+    margin: 3% 0 0 0;
+    font-family:  'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: .2rem;
+}
+footer{
+    margin-top: -6.2vh;
+    clear: left;
+}
+/* 關鍵字"自動偵測螢幕高度讓footer貼邊" */
