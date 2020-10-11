@@ -190,6 +190,7 @@ nav{
     font-size: 8pt;
     opacity: 0;
     animation: mytext 2.5s forwards;
+    text-align: center;
     letter-spacing: .1rem
 }
 @keyframes mytext{
@@ -247,6 +248,34 @@ section h2{
 #WORK a{
     display: block;
     height: 250px;
+}
+/* CH202009 */
+.CH202009 p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    /* transform: rotate(-90deg); */
+    top: -21px;
+    right: -12px;
+}
+.CH202009{
+    position: relative;
+    background: url(images/work_ChiheWeb202009_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CH202009 a:hover ~ p{
+    animation: CH202009move .5s forwards;
+}
+@keyframes CH202009move{
+    from{ transform: translate(0) rotate(0deg); }
+    to{ transform: translate(30px, -30px) rotate(20deg);}
+}
+.CH202009:hover{
+    background: url(images/work_ChiheWeb202009_0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* TL202008 */
 .TL202008 p{
