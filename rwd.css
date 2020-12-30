@@ -91,9 +91,9 @@
     #WORK a{
         height: 200px;
     }
-    /* .LS201906 p{
-        left: -25px;
-    } */
+    .PhoneDis{
+        display: none;
+    }
     /* ABOUT */
     .about1{
         width: 45%;
@@ -164,22 +164,22 @@
         margin:0 17% 0 0;
     }
     .Cicon{
-        margin: 33% auto 3%;
+        margin: 0 auto;
         justify-content: center;
         position: relative;
     }
     .Cicon li{
-        width: 22%;
-        margin: 0;
+        width: 25%;
+        margin: 3%;
     }
     .Cphone div{
-        top: 148%;
-        left: 22%;
+        top: 100%;
+        left: -20%;
         width: auto;
     }
-    .Cphone p{
+    /* .Cphone p{
         text-align: left;
-    }
+    } */
     .CMbg{
         display: none;
     }
@@ -188,7 +188,6 @@
         position: relative;
         width: 78%;
         height: 940px;
-        margin: 20% auto 0;
     }
     #Cmail_p{
         margin: 28% 0 8% 0;
@@ -203,16 +202,16 @@
         width: 43%;
     }
     header h1{
-        width: 6%;
+        width: 50px;
         left: 47%;
     }
     .icon{
-        width: 30%;
-        right: -47px;
+        width: 160px;
+        right: 50px;
     }
     .icon-li{
-        width: 13%;
-        margin-left: 8%;
+        width: 30px;
+        margin-left: 10px;
     }
     .INcontent{
         margin: 2% auto 0;
@@ -265,7 +264,7 @@
     }
     /* CONTACT */
     .Cicon{
-        margin: 12% auto 3%;
+        margin: 0 auto;
     }
     .Cphone div{
         width: auto;
@@ -301,16 +300,16 @@
         width: 20%;
     }
     header h1{
-        width: 3.5%;
+        width: 50px;
         left: 48%;
     }
     .icon{
-        width: 11%;
-        right: 50px;
+        width: 180px;
+        right: 60px;
     }
     .icon-li{
-        width: 2.3vw;
-        margin-left: 1vw;
+        width: 30px;
+        margin-left: 10px;
     }
     .INcontent{
         margin: 6% auto 5%;
@@ -363,7 +362,7 @@
     }
     /* CONTACT */
     .Cicon{
-        margin: 8% auto 3%;
+        margin: 0 auto;
     }
     .Cphone div{
         width: 100%;

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.KB2020begin{
+    width: auto;
+    max-width: 900px;
+    margin: 14% auto 3%;
+}
+.KB2020begin h2{
+    margin-bottom: 15%;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 1.5s forwards;
+    letter-spacing: .3rem
+}
+.KB2020banner p{
+    margin: 3% auto 0;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    opacity: 0;
+    animation: mytext 2s forwards;
+    letter-spacing: .2rem
+}
+.KB2020c{
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.KB2020c p{
+    margin: 0 auto 3%;
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    letter-spacing: .2rem
+}
+.KB2020c img{
+    margin: 0 auto 3%;
+}
