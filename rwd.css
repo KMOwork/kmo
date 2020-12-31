@@ -244,6 +244,10 @@
     #WORK a{
         height: 200px;
     }
+    /* KB202012 */
+    .KB202012 p{
+        right: -42px;
+    }
     /* .LS201906 p{
         left: -24px;
     } */
@@ -341,6 +345,10 @@
     }
     #WORK a{
         height: 250px;
+    }
+    /* KB202012 */
+    .KB202012 p{
+        right: -56px;
     }
     /* .LS201906 p{
         left: -40px;
