@@ -16,12 +16,12 @@
     .PHONEmenu{
         display: block;
         position: fixed;
-        width: 50%;
+        width: 100%;
         right: 0;
         top: 0;
         bottom: 0;
         padding: 0%;
-        background: rgba(51, 51, 51, 0.8);
+        background: rgba(51, 51, 51, .93);
         /* 用 translate 把選單藏到畫面右邊去 */
         transform: translateX(102%);
         transition: transform .5s;
@@ -32,6 +32,9 @@
     }
     .menu-list{
         font-size: 1.5rem;
+    }
+    .menu-item{
+        margin: 10% auto;
     }
     header h1{
         width: 10%;
@@ -198,9 +201,6 @@
 }
 /* 中型設備（⼤型平板電腦，768px及以上） */
 @media only screen and (min-width:768px) {
-    .menu{
-        width: 43%;
-    }
     header h1{
         width: 50px;
         left: 47%;
@@ -300,9 +300,6 @@
 }
 /* ⼤型設備（筆記型電腦/桌機，992px及以上） */
 @media only screen and (min-width:992px) {
-    .menu{
-        width: 20%;
-    }
     header h1{
         width: 50px;
         left: 48%;

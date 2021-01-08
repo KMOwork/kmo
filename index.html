@@ -258,6 +258,10 @@
                 var pos = $(btn).offset();
                 $('html,body').animate({scrollTop:pos.top},1000);
             });
+            //選單自動收合
+            $('.menu-list').click(function(){
+                $('.ham').click();
+            });
             // down
             $('.down a ,.CliM a ,.NliM a').click(function(){
                 var btn = $(this).attr('href');
